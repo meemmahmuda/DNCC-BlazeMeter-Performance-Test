@@ -1,4 +1,4 @@
-# DNCC JMeter Performance Test
+# DNCC BlazeMeter Performance Test
 
 ![Apache JMeter](https://img.shields.io/badge/Tool-Apache%20JMeter-red)
 ![Test Type](https://img.shields.io/badge/Test-Baseline%20Performance-blue)
