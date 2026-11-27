@@ -158,7 +158,7 @@ The dashboard (`index.html`) contains the following sections:
 ## 📸 Report Screenshots
 
 ### 1. Dashboard Overview (Test Information)
-![Dashboard Overview](screenshots/dashboard.png)
+![Dashboard Overview](ApacheJMeterDashboard.png)
 
 ### 2. APDEX and Requests Summary
 ![APDEX and Requests Summary](screenshots/apdex-summary.png)
