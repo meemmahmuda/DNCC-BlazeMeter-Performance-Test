@@ -164,15 +164,15 @@ The dashboard (`index.html`) contains the following sections:
 ![APDEX and Requests Summary](Apache_JMeter_Dashboard.png)
 
 ### 3. Statistics Table
-![Statistics](screenshots/statistics.png)
+![Statistics](Stat.png)
 
 ### 4. Errors and Top 5 Errors by Sampler
-![Errors](screenshots/errors.png)
+![Errors](Errors.png)
 
 ### 5. Charts
-![Response Times Over Time](screenshots/over-time.png)
-![Throughput](screenshots/throughput.png)
-![Response Times](screenshots/response-times.png)
+![Response Times Over Time](Response.png)
+![Throughput](Throuput.png)
+![Response Times](Times.png)
 
 > 📝 Place all screenshots inside the `screenshots/` folder with the file names above.
 
