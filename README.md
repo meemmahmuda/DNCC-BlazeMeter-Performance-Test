@@ -34,6 +34,8 @@ A performance testing project for the **DNCC e-Revenue portal** (`erevenue.dncc.
 
 Performance testing checks how fast, stable and scalable a web application is when many users access it at the same time. In this project, **Apache JMeter** was used to replay a real user journey on the DNCC e-Revenue portal (**open login page → select user type → login → OTP verification**) and measure how fast each step responds. The scenario was recorded in the browser, converted into a JMeter test plan (`DNCC.jmx`), executed, and the results were saved in a `.jtl` file (`DNCC.jtl`).
 
+> ℹ️ This run used 1 virtual user and 1 iteration, so it works as a baseline response-time test of the login flow, not a heavy multi-user load test. It can be scaled up later by increasing the thread count.
+
 From that file, JMeter generated an **HTML Dashboard Report** (`index.html`) showing response times, throughput, errors, APDEX score and various charts. This repository stores that report so anyone can open it and understand how the application performed under the tested load.
 
 ## 🎯 Objectives
