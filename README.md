@@ -192,11 +192,11 @@ Go to *Settings → Pages*, select the `main` branch and save. The report will b
 1. Install Java and Apache JMeter.
 2. Run the test in non-GUI mode and save results:
    ```bash
-   jmeter -n -t DNCC.jmx -l DNCC.jtl   # use a new .jtl file name or delete the old one first
+   jmeter -n -t DNCC.jmx -l DNCC.jtl   
    ```
 3. Generate the HTML dashboard:
    ```bash
-   jmeter -g DNCC.jtl -o report/
+   jmeter -g DNCC.jtl -o 
    ```
 4. Open `index.html` in a browser.
 
