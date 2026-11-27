@@ -161,7 +161,7 @@ The dashboard (`index.html`) contains the following sections:
 ![Dashboard Overview](ApacheJMeterDashboard.png)
 
 ### 2. APDEX and Requests Summary
-![APDEX and Requests Summary](screenshots/apdex-summary.png)
+![APDEX and Requests Summary](Apache_JMeter_Dashboard.png)
 
 ### 3. Statistics Table
 ![Statistics](screenshots/statistics.png)
