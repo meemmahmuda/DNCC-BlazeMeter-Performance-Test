@@ -174,75 +174,18 @@ The dashboard (`index.html`) contains the following sections:
 ![Throughput](Throuput.png)
 ![Response Times](Times.png)
 
-> 📝 Place all screenshots inside the `screenshots/` folder with the file names above.
-
-## 📊 Test Results Summary
-
-> Fill in these values from the dashboard report.
-
-| Metric | Result |
-|--------|--------|
-| Total Samples | - |
-| Passed Requests | - |
-| Failed Requests | - |
-| Error % | - |
-| Average Response Time | - ms |
-| Median Response Time | - ms |
-| 90th Percentile | - ms |
-| 95th Percentile | - ms |
-| 99th Percentile | - ms |
-| Min / Max Response Time | - ms / - ms |
-| Throughput | - req/sec |
-| APDEX Score | - |
-
-## 🔎 Analysis & Observations
-
-> Write your own findings here after reviewing the report. Example points:
-
-- **Response time:** Was the average response time acceptable (for example under 2–3 seconds)?
-- **Errors:** Which requests failed, and what were the error types (e.g. 500, 503, timeout, connection refused)?
-- **Throughput:** What was the request rate for this single-user run?
-- **Slowest requests:** Which pages/APIs had the highest response time?
-- **Login flow:** Which of the 4 steps (page load, user type, login, OTP) took the longest?
-
-## ✅ Conclusion
-
-> Summarize the result in a few lines, for example:
-> The application handled the tested load with an error rate of **X%** and an average response time of **Y ms**. The APDEX score of **Z** indicates **(excellent / good / fair / poor)** user experience under this load.
-
-## 💡 Recommendations
-
-- Optimize the slowest requests identified in the Statistics table
-- Investigate and fix the requests listed in *Top 5 Errors by Sampler*
-- Use caching and compression for static content
-- Review server capacity if errors increase with load
-- Repeat the test with more virtual users (for example 10, 50, 100) and a longer duration for real load, stress and endurance testing
-
-## 📁 Project Structure
-
-```
-DNCC-JMeter-Performance-Test/
-├── index.html           # Main JMeter dashboard report
-├── content/             # Report CSS, JS, graphs and chart pages
-├── sbadmin2-1.0.7/      # Dashboard theme and libraries
-├── DNCC.jmx             # JMeter test plan (remove credentials before uploading)
-├── DNCC.jtl             # Raw JMeter results (optional)
-├── screenshots/         # Screenshots of the report
-└── README.md            # Project documentation
-```
-
 ## 🌐 How to View the Report
 
 **Option 1: Locally**
 ```bash
-git clone https://github.com/<your-username>/DNCC-JMeter-Performance-Test.git
+git clone https://github.com/meemmahmuda/DNCC-JMeter-Performance-Test.git
 cd DNCC-JMeter-Performance-Test
 ```
 Then open `index.html` in any web browser.
 
 **Option 2: GitHub Pages**
 Go to *Settings → Pages*, select the `main` branch and save. The report will be available at:
-`https://<your-username>.github.io/DNCC-JMeter-Performance-Test/`
+`https://meemmahmuda.github.io/DNCC-JMeter-Performance-Test/`
 
 ## ▶️ How to Re-run the Test
 
@@ -255,13 +198,13 @@ Go to *Settings → Pages*, select the `main` branch and save. The report will b
    ```bash
    jmeter -g DNCC.jtl -o report/
    ```
-4. Open `report/index.html` in a browser.
+4. Open `index.html` in a browser.
 
 ## 👤 Author
 
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
-Email: your-email@example.com
+**Meem Mahmuda**
+GitHub: [@meemmahmuda](https://github.com/meemmahmuda)
+Email: meemmahmuda70@gmail.com
 
 ---
 
