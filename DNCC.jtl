@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1795787518490,1211,https://erevenue.dncc.gov.bd/web/userulocknew.aspx?cuserid=Mahmuda,200,OK,Thread Group 1-1,text,true,,1142,548,1,1,https://erevenue.dncc.gov.bd/web/userulocknew.aspx?cuserid=Mahmuda,1204,0,1098
+1795787524464,293,https://erevenue.dncc.gov.bd/newv/Default,200,OK,Thread Group 1-1,text,true,,6277,1318,1,1,https://erevenue.dncc.gov.bd/newv/Default,293,0,0
+1795787524771,491,https://erevenue.dncc.gov.bd/newv/Default,200,OK,Thread Group 1-1,text,true,,4994,2812,1,1,https://erevenue.dncc.gov.bd/newv/otpverification,385,0,0
+1795787524771,385,https://erevenue.dncc.gov.bd/newv/Default-0,302,Found,Thread Group 1-1,text,true,,771,1543,1,1,https://erevenue.dncc.gov.bd/newv/Default,385,0,0
+1795787525157,57,https://erevenue.dncc.gov.bd/newv/Default-1,301,Moved Permanently,Thread Group 1-1,text,true,,802,637,1,1,https://erevenue.dncc.gov.bd/newv/otpverification.aspx,57,0,0
+1795787525214,48,https://erevenue.dncc.gov.bd/newv/Default-2,200,OK,Thread Group 1-1,text,true,,3421,632,1,1,https://erevenue.dncc.gov.bd/newv/otpverification,48,0,0
+1795787525264,720,https://erevenue.dncc.gov.bd/newv/otpverification,200,OK,Thread Group 1-1,text,true,,91718,2247,1,1,https://erevenue.dncc.gov.bd/newv/web/homenew_ver2,71,0,0
+1795787525264,71,https://erevenue.dncc.gov.bd/newv/otpverification-0,302,Found,Thread Group 1-1,text,true,,748,976,1,1,https://erevenue.dncc.gov.bd/newv/otpverification,71,0,0
+1795787525335,60,https://erevenue.dncc.gov.bd/newv/otpverification-1,301,Moved Permanently,Thread Group 1-1,text,true,,804,638,1,1,https://erevenue.dncc.gov.bd/newv/web/homenew_ver2.aspx,59,0,0
+1795787525395,589,https://erevenue.dncc.gov.bd/newv/otpverification-2,200,OK,Thread Group 1-1,text,true,,90166,633,1,1,https://erevenue.dncc.gov.bd/newv/web/homenew_ver2,501,0,0
+1795787518382,2715,Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,104131,6925,1,1,null,1953,4888,1098
