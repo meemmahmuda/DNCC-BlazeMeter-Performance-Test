@@ -178,14 +178,14 @@ The dashboard (`index.html`) contains the following sections:
 
 **Option 1: Locally**
 ```bash
-git clone https://github.com/meemmahmuda/DNCC-JMeter-Performance-Test.git
+git clone https://github.com/meemmahmuda/DNCC-BlazeMeter-Performance-Test.git
 cd DNCC-JMeter-Performance-Test
 ```
 Then open `index.html` in any web browser.
 
 **Option 2: GitHub Pages**
 Go to *Settings → Pages*, select the `main` branch and save. The report will be available at:
-`https://meemmahmuda.github.io/DNCC-JMeter-Performance-Test/`
+`https://meemmahmuda.github.io/DNCC-BlazeMeter-Performance-Test/`
 
 ## ▶️ How to Re-run the Test
 
